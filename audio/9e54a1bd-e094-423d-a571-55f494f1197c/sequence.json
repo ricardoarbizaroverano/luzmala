@@ -1,0 +1,200 @@
+{
+  "duration": 62.4,
+  "loop": true,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "1-Intro_LM",
+      "objectBehaviours": [
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  2
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 62.4,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/9e54a1bd-e094-423d-a571-55f494f1197c/01_Intro_LM_000000/manifest.mpd",
+            "urlSafari": "audio/9e54a1bd-e094-423d-a571-55f494f1197c/01_Intro_LM_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "2-Intro_LM",
+      "objectBehaviours": [
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  3
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 62.4,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/9e54a1bd-e094-423d-a571-55f494f1197c/02_Intro_LM_000000/manifest.mpd",
+            "urlSafari": "audio/9e54a1bd-e094-423d-a571-55f494f1197c/02_Intro_LM_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "3-Intro_LM",
+      "objectBehaviours": [
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  4
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 62.4,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/9e54a1bd-e094-423d-a571-55f494f1197c/03_Intro_LM_000000/manifest.mpd",
+            "urlSafari": "audio/9e54a1bd-e094-423d-a571-55f494f1197c/03_Intro_LM_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "4-Intro_LM",
+      "objectBehaviours": [
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  5
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 62.4,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/9e54a1bd-e094-423d-a571-55f494f1197c/04_Intro_LM_000000/manifest.mpd",
+            "urlSafari": "audio/9e54a1bd-e094-423d-a571-55f494f1197c/04_Intro_LM_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "5-Main_Intro_LM",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedEverywhere"
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 62.4,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/9e54a1bd-e094-423d-a571-55f494f1197c/05_Main_Intro_LM_000000/manifest.mpd",
+            "urlSafari": "audio/9e54a1bd-e094-423d-a571-55f494f1197c/05_Main_Intro_LM_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}
