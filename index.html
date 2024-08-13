@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bundle.css" />
+    <title>Luz mala</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="bundle.js"></script>
+    <script>
+      
+      
+      
+      
+
+      // Any value specified in config.js may be overwritten here without having to rebuild the app.
+      const config = {
+  "JOIN_URL": "",
+  "LOCAL_SESSION_ID_PREFIX": "bbcat-orchestration-template",
+  "INITIAL_CONTENT_ID": "9e54a1bd-e094-423d-a571-55f494f1197c",
+  "SEQUENCE_URLS": [
+    {
+      "name": "Waiting for connections...",
+      "contentId": "9e54a1bd-e094-423d-a571-55f494f1197c",
+      "url": "audio/9e54a1bd-e094-423d-a571-55f494f1197c/sequence.json",
+      "hold": false,
+      "skippable": true,
+      "instructions": false,
+      "next": [
+        {
+          "contentId": "3c57c797-8e54-4372-b51f-4d9ad168c1c4",
+          "label": "Continue"
+        }
+      ]
+    },
+    {
+      "name": "Luz Mala",
+      "contentId": "3c57c797-8e54-4372-b51f-4d9ad168c1c4",
+      "url": "audio/3c57c797-8e54-4372-b51f-4d9ad168c1c4/sequence.json",
+      "hold": false,
+      "skippable": false,
+      "instructions": false,
+      "next": []
+    }
+  ],
+  "CONTROLS": [],
+  "CLOUDSYNC_ENDPOINT": {
+    "hostname": "cloudsync.virt.ch.bbc.co.uk"
+  },
+  "TEXT_TITLE": "Luz mala",
+  "TEXT_SUBTITLE": "by Ricardo Arbiza ",
+  "TEXT_INTRODUCTION": "Turn your volume up and don't close the tab during the performance",
+  "TEXT_START_LABEL": "Start new session",
+  "TEXT_JOIN_LABEL": "Join existing session",
+  "ACCENT_COLOUR": "#000000",
+  "DEBUG_UI": true,
+  "ENABLE_TUTORIAL": false,
+  "MDO_COMPRESSOR_RATIO": 2,
+  "MDO_COMPRESSOR_THRESHOLD": 0,
+  "OBJECT_FADE_OUT_DURATION": 0,
+  "PLAYER_IMAGE_URL": "images/aaffaa63-b80d-42a6-819f-99c006d600c4.png",
+  "TEXT_PLAYER_IMAGE_ALT": ""
+};
+
+      // Instantiate the React app to render into the #app div:
+      initOrchestrationTemplate(document.getElementById('app'), config);
+    </script>
+    <noscript>
+      This page requires JavaScript to be enabled.
+    </noscript>
+  </body>
+</html>
