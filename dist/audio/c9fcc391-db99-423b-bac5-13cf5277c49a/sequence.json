@@ -1,0 +1,413 @@
+{
+  "duration": 438.2,
+  "loop": false,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "1-LuzMala",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  2
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 2.07,
+          "duration": 94.85,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/01_LuzMala_000000/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/01_LuzMala_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 101.25,
+          "duration": 2.5,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/01_LuzMala_000001.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 107.75,
+          "duration": 5.37,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/01_LuzMala_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 161.35,
+          "duration": 176.48,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/01_LuzMala_000003/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/01_LuzMala_000003/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 349.92,
+          "duration": 88.33,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/01_LuzMala_000004/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/01_LuzMala_000004/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "2-LuzMala",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  3
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 97.18,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/02_LuzMala_000000/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/02_LuzMala_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 104.43,
+          "duration": 4.19,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/02_LuzMala_000001.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 161.35,
+          "duration": 22.03,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/02_LuzMala_000002/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/02_LuzMala_000002/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 185.62,
+          "duration": 151.81,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/02_LuzMala_000003/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/02_LuzMala_000003/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 345.17,
+          "duration": 93.08,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/02_LuzMala_000004/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/02_LuzMala_000004/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "3-LuzMala",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  4
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 96.54,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/03_LuzMala_000000/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/03_LuzMala_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 98.58,
+          "duration": 3.43,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/03_LuzMala_000001.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 108.69,
+          "duration": 2.74,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/03_LuzMala_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 180.55,
+          "duration": 153.53,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/03_LuzMala_000003/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/03_LuzMala_000003/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 359.55,
+          "duration": 74.1,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/03_LuzMala_000004/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/03_LuzMala_000004/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "4-LuzMala",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceCurrentNumber",
+                "operator": "modulo",
+                "value": [
+                  4,
+                  5
+                ],
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 97.29,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/04_LuzMala_000000/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/04_LuzMala_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 102.82,
+          "duration": 2.74,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/04_LuzMala_000001.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 175.75,
+          "duration": 152.45,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/04_LuzMala_000002/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/04_LuzMala_000002/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 347.55,
+          "duration": 87.82,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/04_LuzMala_000003/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/04_LuzMala_000003/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "5-Main_LuzMala",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedEverywhere"
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 406.18,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/05_Main_LuzMala_000000/manifest.mpd",
+            "urlSafari": "audio/c9fcc391-db99-423b-bac5-13cf5277c49a/05_Main_LuzMala_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}
